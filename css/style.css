@@ -22,6 +22,7 @@ body {
 	font-family: "Lato", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #000;
 }
 
 h1,
@@ -156,6 +157,7 @@ ol {
 
 .site-btn.no-radius {
 	border-radius: 2px;
+	color: #fff
 }
 
 .site-btn.sb-full-- {
@@ -167,11 +169,11 @@ ol {
 .site-btn.sb-gradients {
 	padding: 17px 32px;
 	border: none;
-	color: #fff;
+	color: #000;
 }
 
 .site-btn.sb-gradients.sbg-line {
-	color: #20509e;
+	color: #fff;
 	z-index: 1;
 }
 
@@ -180,7 +182,7 @@ ol {
 	content: '';
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
-	background: #fff;
+	background: #000;
 	top: 2px;
 	left: 2px;
 	z-index: -1;
@@ -188,7 +190,7 @@ ol {
 }
 
 .site-btn.sb-gradients.sbg-line:hover {
-	color: #20509e;
+	color: #fff;
 }
 
 .gradient-bg,
@@ -236,7 +238,7 @@ ol {
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #fff;
+	background: #000;
 }
 
 .loader {
@@ -344,7 +346,8 @@ ol {
 	display: block;
 	background-image: url("../img/hero-bg.png");
 	background-size: cover;
-	background-color: #f3f7f9;
+	/* background-color: #f3f7f9; */
+	background-color: #000;
 	background-position: right top;
 	background-repeat: no-repeat;
 	position: relative;
@@ -352,10 +355,10 @@ ol {
 }
 
 .hero-section .laptop-image {
-	width: 685px;
+	width: 350px;
 	max-width: none;
 	position: relative;
-	left: 80px;
+	left: 200px;
 }
 
 .hero-text {
@@ -384,7 +387,7 @@ ol {
 .hero-subscribe-from input {
 	width: 315px;
 	border: 1px solid #ebebeb;
-	background: #fff;
+	background: #000;
 	height: 48px;
 	padding: 0 25px;
 	border-radius: 50px;
@@ -538,7 +541,7 @@ ol {
 -----------------------*/
 
 .team-section {
-	background: #f3f7f9;
+	background: #000;
 	overflow: hidden;
 }
 
@@ -547,7 +550,7 @@ ol {
 }
 
 .member {
-	background: #fff;
+	background: #000;
 	width: calc(20% - 25px);
 	display: inline-block;
 	margin: 0 10px;
@@ -600,7 +603,7 @@ ol {
 
 .member-social {
 	padding-top: 25px;
-	background: #fff;
+	background: #000;
 	position: relative;
 	z-index: 2;
 }
@@ -723,7 +726,7 @@ ol {
 	height: 50px;
 	display: inline-block;
 	background: #cbd3df;
-	color: #fff;
+	color: #000;
 	font-size: 24px;
 	text-align: center;
 	margin-right: 10px;
@@ -961,7 +964,7 @@ ol {
 	height: 300px;
 	background-image: url("../img/page-info-bg.png");
 	background-size: cover;
-	background-color: #f3f7f9;
+	background-color: #000;
 	background-position: right top;
 	background-repeat: no-repeat;
 	position: relative;
